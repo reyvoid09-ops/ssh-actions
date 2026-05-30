@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   default-user-name-password:
-    runs-on: ubuntu-latest
+    runs-on: reyi-hosted
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
